@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "smart-listener": {
-      "command": "D:/Claude code/mcp-smart-listener/venv/Scripts/python.exe",
-      "args": ["D:/Claude code/mcp-smart-listener/smart_listener.py"]
+      "command": "/path/to/mcp-smart-listener/venv/bin/python",
+      "args": ["/path/to/mcp-smart-listener/smart_listener.py"]
     }
   }
 }
