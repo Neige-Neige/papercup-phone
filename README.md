@@ -81,16 +81,31 @@ sudo apt install ffmpeg
 
 编辑 `%APPDATA%\Claude\claude_desktop_config.json` (Windows) 或 `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS):
 
+**Windows:**
 ```json
 {
   "mcpServers": {
     "smart-listener": {
-      "command": "D:\\Claude code\\mcp-smart-listener\\venv\\Scripts\\python.exe",
-      "args": ["D:\\Claude code\\mcp-smart-listener\\smart_listener.py"]
+      "command": "C:\\path\\to\\mcp-smart-listener\\venv\\Scripts\\python.exe",
+      "args": ["C:\\path\\to\\mcp-smart-listener\\smart_listener.py"]
     }
   }
 }
 ```
+
+**macOS/Linux:**
+```json
+{
+  "mcpServers": {
+    "smart-listener": {
+      "command": "/path/to/mcp-smart-listener/venv/bin/python",
+      "args": ["/path/to/mcp-smart-listener/smart_listener.py"]
+    }
+  }
+}
+```
+
+> 请将 `/path/to/` 替换为你的实际安装路径
 
 ## 使用示例
 
