@@ -1,0 +1,21 @@
+# MCP Smart Listener - YAMNet + Whisper + Camera
+# 音频处理
+tensorflow>=2.10
+tensorflow-hub
+sounddevice
+numpy
+scipy
+pandas
+
+# Whisper 语音识别 (本地离线)
+openai-whisper
+
+# MCP SDK
+mcp
+
+# 音频格式处理
+soundfile
+librosa
+
+# 摄像头 (可选)
+opencv-python
