@@ -77,9 +77,9 @@ brew install ffmpeg
 sudo apt install ffmpeg
 ```
 
-## 配置 Claude Desktop
+## 配置 MCP
 
-编辑 `%APPDATA%\Claude\claude_desktop_config.json` (Windows) 或 `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS):
+在你的 MCP 客户端配置文件中添加以下内容：
 
 **Windows:**
 ```json
@@ -105,7 +105,12 @@ sudo apt install ffmpeg
 }
 ```
 
-> 请将 `/path/to/` 替换为你的实际安装路径
+> 请将路径替换为你的实际安装路径
+
+**常见 MCP 客户端配置文件位置：**
+- Claude Desktop (Windows): `%APPDATA%\Claude\claude_desktop_config.json`
+- Claude Desktop (macOS): `~/Library/Application Support/Claude/claude_desktop_config.json`
+- 其他客户端请参考对应文档
 
 ## 使用示例
 
